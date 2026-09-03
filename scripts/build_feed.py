@@ -59,7 +59,8 @@ def main() -> None:
         {"href": f"{base}/feed.xml", "rel": "self", "type": "application/rss+xml"},
     )
     ET.SubElement(ch, "language").text = cfg["language"]
-    ET.SubElement(ch, "copyright").text = cfg["copyright"]
+    copy = ET.SubElement(ch, "copyright")
+    copy.text = "\u00a9 " + cfg["copyright"]
     ET.SubElement(ch, "description").text = cfg["description"]
     ET.SubElement(ch, "lastBuildDate").text = rfc2822(datetime.now(timezone.utc))
     ET.SubElement(ch, "generator").text = "valor-mn/scripts/build_feed.py"
@@ -112,6 +113,7 @@ def main() -> None:
     ET.indent(tree, space="  ")
     out = ROOT / "feed.xml"
     payload = ET.tostring(rss, encoding="unicode")
+    payload = payload.replace("©", "&#xA9;")
     xml = '<?xml version="1.0" encoding="UTF-8"?>\n' + payload + "\n"
     out.write_text(xml, encoding="utf-8")
     print(f"wrote {out} ({len(episodes)} episode(s))")

@@ -5,9 +5,9 @@
     <link>https://valormn.org</link>
     <atom:link href="https://ncolestock.github.io/valor-mn/feed.xml" rel="self" type="application/rss+xml" />
     <language>en-us</language>
-    <copyright>© Valor Classical Academy</copyright>
+    <copyright>&#xA9; Valor Classical Academy</copyright>
     <description>Chapel talks and the life of Valor Classical Academy, a Christian classical school in the Stillwater area of Minnesota. Educate. Enculturate. Glorify.</description>
-    <lastBuildDate>Thu, 03 Sep 2026 16:20:31 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Sep 2026 16:28:30 +0000</lastBuildDate>
     <generator>valor-mn/scripts/build_feed.py</generator>
     <docs>https://help.apple.com/itc/podcasts_connect/#/itcb54353390</docs>
     <itunes:author>Valor Classical Academy</itunes:author>
