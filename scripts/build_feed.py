@@ -31,6 +31,7 @@ def duration_str(seconds: int) -> str:
 def main() -> None:
     cfg = json.loads((ROOT / "podcast.json").read_text())
     base = cfg["base_url"].rstrip("/")
+    audio_base = cfg.get("audio_base_url", base).rstrip("/")
     cover_url = f"{base}/{cfg['cover']}"
 
     episodes = []
@@ -40,7 +41,7 @@ def main() -> None:
         if not audio.is_file():
             raise SystemExit(f"missing audio: {audio}")
         ep["_bytes"] = audio.stat().st_size
-        ep["_audio_url"] = f"{base}/episodes/{ep['file']}"
+        ep["_audio_url"] = f"{audio_base}/episodes/{ep['file']}"
         ep["_dt"] = datetime.fromisoformat(ep["date"])
         episodes.append(ep)
 

@@ -1,6 +1,7 @@
 {
   "title": "Valor MN",
   "base_url": "https://valormn.org/podcast",
+  "audio_base_url": "https://ncolestock.github.io/valor-mn",
   "link": "https://valormn.org/podcast",
   "author": "Valor Classical Academy",
   "owner_name": "Nathan Colestock",
