@@ -68,9 +68,11 @@ def main() -> None:
 
     ET.SubElement(ch, f"{{{ITUNES}}}author").text = cfg["author"]
     ET.SubElement(ch, f"{{{ITUNES}}}summary").text = cfg["description"]
+    ET.SubElement(ch, f"{{{ITUNES}}}subtitle").text = "Valor Classical Academy"
     ET.SubElement(ch, f"{{{ITUNES}}}type").text = cfg["type"]
-    ET.SubElement(ch, f"{{{ITUNES}}}explicit").text = "true" if cfg["explicit"] else "false"
+    ET.SubElement(ch, f"{{{ITUNES}}}explicit").text = "false" if not cfg["explicit"] else "true"
     ET.SubElement(ch, f"{{{ITUNES}}}image", {"href": cover_url})
+    ET.SubElement(ch, f"{{{ITUNES}}}new-feed-url").text = f"{base}/feed.xml"
     for cat in cfg["categories"]:
         el = ET.SubElement(ch, f"{{{ITUNES}}}category", {"text": cat["text"]})
         if cat.get("sub"):
@@ -91,7 +93,8 @@ def main() -> None:
         ET.SubElement(item, f"{{{ITUNES}}}summary").text = ep["summary"]
         ET.SubElement(item, f"{{{CONTENT}}}encoded").text = ep["summary"]
         ET.SubElement(item, "pubDate").text = rfc2822(ep["_dt"])
-        ET.SubElement(item, "link").text = ep["_audio_url"]
+        ET.SubElement(item, "link").text = cfg["link"]
+        ET.SubElement(item, f"{{{ITUNES}}}image", {"href": cover_url})
         ET.SubElement(
             item,
             "enclosure",
