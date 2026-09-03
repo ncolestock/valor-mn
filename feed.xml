@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+  <channel>
+    <title>Valor MN</title>
+    <link>https://valormn.org</link>
+    <atom:link href="https://ncolestock.github.io/valor-mn/feed.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>© Valor Classical Academy</copyright>
+    <description>Chapel talks and the life of Valor Classical Academy, a Christian classical school in the Stillwater area of Minnesota. Educate. Enculturate. Glorify.</description>
+    <lastBuildDate>Thu, 03 Sep 2026 16:20:31 +0000</lastBuildDate>
+    <generator>valor-mn/scripts/build_feed.py</generator>
+    <docs>https://help.apple.com/itc/podcasts_connect/#/itcb54353390</docs>
+    <itunes:author>Valor Classical Academy</itunes:author>
+    <itunes:summary>Chapel talks and the life of Valor Classical Academy, a Christian classical school in the Stillwater area of Minnesota. Educate. Enculturate. Glorify.</itunes:summary>
+    <itunes:type>episodic</itunes:type>
+    <itunes:explicit>false</itunes:explicit>
+    <itunes:image href="https://ncolestock.github.io/valor-mn/cover.jpg" />
+    <itunes:category text="Education" />
+    <itunes:category text="Religion &amp; Spirituality">
+      <itunes:category text="Christianity" />
+    </itunes:category>
+    <itunes:owner>
+      <itunes:name>Nathan Colestock</itunes:name>
+      <itunes:email>nathan.colestock@valormn.org</itunes:email>
+    </itunes:owner>
+    <image>
+      <url>https://ncolestock.github.io/valor-mn/cover.jpg</url>
+      <title>Valor MN</title>
+      <link>https://valormn.org</link>
+    </image>
+    <item>
+      <title>St. Lucas — September 3, 2026</title>
+      <description>Recorded at St. Lucas Community Church in Lake Elmo, where Valor Classical Academy meets.</description>
+      <itunes:summary>Recorded at St. Lucas Community Church in Lake Elmo, where Valor Classical Academy meets.</itunes:summary>
+      <content:encoded>Recorded at St. Lucas Community Church in Lake Elmo, where Valor Classical Academy meets.</content:encoded>
+      <pubDate>Thu, 03 Sep 2026 15:13:01 +0000</pubDate>
+      <link>https://ncolestock.github.io/valor-mn/episodes/2026-09-03.m4a</link>
+      <enclosure url="https://ncolestock.github.io/valor-mn/episodes/2026-09-03.m4a" length="8767442" type="audio/x-m4a" />
+      <guid isPermaLink="false">valor-mn-2026-09-03</guid>
+      <itunes:duration>6:02</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
+  </channel>
+</rss>

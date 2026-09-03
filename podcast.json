@@ -1,0 +1,18 @@
+{
+  "title": "Valor MN",
+  "base_url": "https://ncolestock.github.io/valor-mn",
+  "link": "https://valormn.org",
+  "author": "Valor Classical Academy",
+  "owner_name": "Nathan Colestock",
+  "email": "nathan.colestock@valormn.org",
+  "description": "Chapel talks and the life of Valor Classical Academy, a Christian classical school in the Stillwater area of Minnesota. Educate. Enculturate. Glorify.",
+  "language": "en-us",
+  "categories": [
+    {"text": "Education"},
+    {"text": "Religion & Spirituality", "sub": "Christianity"}
+  ],
+  "explicit": false,
+  "type": "episodic",
+  "cover": "cover.jpg",
+  "copyright": "© Valor Classical Academy"
+}

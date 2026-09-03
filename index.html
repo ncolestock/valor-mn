@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Valor MN</title>
+  <link rel="alternate" type="application/rss+xml" title="Valor MN" href="feed.xml">
+  <link rel="icon" href="cover.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --navy: #0f1a2e;
+      --navy-light: #1a2d4a;
+      --gold: #c5a059;
+      --cream: #f8f6f3;
+      --border: #e8e3dc;
+      --text: #2d3748;
+      --muted: #5a6577;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Nunito Sans", system-ui, sans-serif;
+      color: var(--text);
+      background: var(--cream);
+    }
+    header {
+      background: var(--navy);
+      color: #fff;
+      text-align: center;
+      padding: 3.5rem 1.25rem 2.75rem;
+    }
+    header::after {
+      content: "";
+      display: block;
+      height: 4px;
+      background: var(--gold);
+      margin: 2.5rem -1.25rem -2.75rem;
+    }
+    .icon {
+      width: 160px;
+      height: 160px;
+      border-radius: 20px;
+      display: block;
+      margin: 0 auto 1.5rem;
+    }
+    h1 {
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 400;
+      font-size: 2.4rem;
+      margin: 0 0 .35rem;
+    }
+    .sub {
+      color: var(--gold);
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      font-size: .78rem;
+      margin: 0;
+    }
+    main { max-width: 40rem; margin: 0 auto; padding: 2.5rem 1.25rem 4rem; }
+    p { line-height: 1.65; }
+    .muted { color: var(--muted); }
+    .card {
+      background: #fff;
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      border-top: 4px solid var(--gold);
+      padding: 1.25rem 1.35rem;
+      margin: 1.5rem 0;
+    }
+    .card h2 {
+      font-family: Fraunces, Georgia, serif;
+      font-weight: 600;
+      font-size: 1.15rem;
+      margin: 0 0 .6rem;
+    }
+    a { color: var(--navy-light); }
+    .btns { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0 0; }
+    .btn {
+      display: inline-block;
+      background: var(--navy);
+      color: #fff;
+      text-decoration: none;
+      padding: .65rem 1.05rem;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: .92rem;
+    }
+    .btn.gold { background: var(--gold); color: var(--navy); }
+    .btn.ghost {
+      background: #fff;
+      color: var(--navy);
+      border: 1px solid var(--border);
+    }
+    code {
+      font-size: .85rem;
+      background: var(--cream);
+      padding: .12rem .35rem;
+      border-radius: 4px;
+      word-break: break-all;
+    }
+    footer {
+      background: var(--navy);
+      color: #fff;
+      text-align: center;
+      padding: 1.75rem 1.25rem;
+      font-size: .92rem;
+    }
+    footer a { color: var(--gold); }
+  </style>
+</head>
+<body>
+  <header>
+    <img class="icon" src="cover.jpg" alt="Valor MN">
+    <h1>Valor MN</h1>
+    <p class="sub">Stillwater area, Minnesota</p>
+  </header>
+  <main>
+    <p>Chapel talks and the life of Valor Classical Academy — a Christian classical school raising skilled builders and brave soldiers who love learning to the glory of God.</p>
+    <p class="muted">Educate. Enculturate. Glorify.</p>
+
+    <div class="card">
+      <h2>Subscribe</h2>
+      <p>Add the RSS feed in any podcast app. Apple Podcasts and Spotify listings follow once they finish reviewing the feed.</p>
+      <div class="btns">
+        <a class="btn gold" href="feed.xml">RSS feed</a>
+        <a class="btn ghost" href="https://valormn.org">valormn.org</a>
+      </div>
+      <p class="muted" style="margin-top:1rem">Feed URL<br><code>https://ncolestock.github.io/valor-mn/feed.xml</code></p>
+    </div>
+
+    <div class="card">
+      <h2>Latest episode</h2>
+      <p><strong>St. Lucas — September 3, 2026</strong><br>
+      Recorded at St. Lucas Community Church in Lake Elmo, where Valor meets. 6 minutes.</p>
+      <div class="btns">
+        <a class="btn" href="episodes/2026-09-03.m4a">Listen</a>
+      </div>
+    </div>
+  </main>
+  <footer>
+    Valor Classical Academy · <a href="https://valormn.org">valormn.org</a>
+  </footer>
+</body>
+</html>
