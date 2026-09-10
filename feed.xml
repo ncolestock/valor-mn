@@ -7,7 +7,7 @@
     <language>en-us</language>
     <copyright>&#xA9; Valor Classical Academy</copyright>
     <description>Each week this fall, Head of School Nathan Colestock reads a short article on who Valor is and where it is going — our mission, our doctrine, and the kind of graduates we mean to raise.</description>
-    <lastBuildDate>Thu, 10 Sep 2026 15:03:09 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 16:11:27 +0000</lastBuildDate>
     <generator>valor-mn/scripts/build_feed.py</generator>
     <docs>https://help.apple.com/itc/podcasts_connect/#/itcb54353390</docs>
     <itunes:author>Valor Classical Academy</itunes:author>
@@ -32,9 +32,9 @@
     </image>
     <item>
       <title>Mission: Educate and Enculturate</title>
-      <description>God made mankind to rule. We became the rulers of earth when God gave us dominion over his creation (Psalm 8:6). The Bible tells us that God made us to rule in many different passages. In saving us, God made us co-heirs with Christ (Rom 8:17), inheritors of the world (Rom 4:13), and princes under the Prince of Peace. To be declared a child of God (John 1:12) means we join his household.</description>
-      <itunes:summary>God made mankind to rule. We became the rulers of earth when God gave us dominion over his creation (Psalm 8:6). The Bible tells us that God made us to rule in many different passages. In saving us, God made us co-heirs with Christ (Rom 8:17), inheritors of the world (Rom 4:13), and princes under the Prince of Peace. To be declared a child of God (John 1:12) means we join his household.</itunes:summary>
-      <content:encoded>God made mankind to rule. We became the rulers of earth when God gave us dominion over his creation (Psalm 8:6). The Bible tells us that God made us to rule in many different passages. In saving us, God made us co-heirs with Christ (Rom 8:17), inheritors of the world (Rom 4:13), and princes under the Prince of Peace. To be declared a child of God (John 1:12) means we join his household.</content:encoded>
+      <description>Since God made mankind to rule, God-honoring schooling prepares students to rule well. That’s why Valor strives to equip students to walk in a manner worthy of their calling (Eph 4:1). To be prepared to rule, students need to receive a body of knowledge and a way of life. That’s why our mission is to educate and enculturate students in Christ.</description>
+      <itunes:summary>Since God made mankind to rule, God-honoring schooling prepares students to rule well. That’s why Valor strives to equip students to walk in a manner worthy of their calling (Eph 4:1). To be prepared to rule, students need to receive a body of knowledge and a way of life. That’s why our mission is to educate and enculturate students in Christ.</itunes:summary>
+      <content:encoded>Since God made mankind to rule, God-honoring schooling prepares students to rule well. That’s why Valor strives to equip students to walk in a manner worthy of their calling (Eph 4:1). To be prepared to rule, students need to receive a body of knowledge and a way of life. That’s why our mission is to educate and enculturate students in Christ.</content:encoded>
       <pubDate>Thu, 10 Sep 2026 15:02:12 +0000</pubDate>
       <link>https://valormn.org/podcast</link>
       <itunes:image href="https://valormn.org/podcast/cover.jpg" />
