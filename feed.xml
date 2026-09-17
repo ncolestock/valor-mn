@@ -7,7 +7,7 @@
     <language>en-us</language>
     <copyright>&#xA9; Valor Classical Academy</copyright>
     <description>Each week this fall, Head of School Nathan Colestock reads a short article on who Valor is and where it is going — our mission, our doctrine, and the kind of graduates we mean to raise.</description>
-    <lastBuildDate>Thu, 10 Sep 2026 16:11:27 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 18:46:26 +0000</lastBuildDate>
     <generator>valor-mn/scripts/build_feed.py</generator>
     <docs>https://help.apple.com/itc/podcasts_connect/#/itcb54353390</docs>
     <itunes:author>Valor Classical Academy</itunes:author>
@@ -30,6 +30,20 @@
       <title>Valor MN</title>
       <link>https://valormn.org/podcast</link>
     </image>
+    <item>
+      <title>Mission: with the classical tradition</title>
+      <description>There is no truly classical education that isn’t thoroughly Christian. “Classical” is not a synonym for “rigorous.” Nor does it simply mean an education in the classic literature of the Western world. Classical education retrieves the seven liberal arts reformed by our forefathers in the faith during the medieval era. Those Christian scholars created an educational system from the seven liberal arts whose purpose was to teach subsequent generations to see Christ as preeminent in all things (Col 1:18) and that all things hold together in Christ (Col 1:17). Its goal was to create, perpetuate, and expand Christian culture so that the gospel which saves sinners would also transform civilizations.</description>
+      <itunes:summary>There is no truly classical education that isn’t thoroughly Christian. “Classical” is not a synonym for “rigorous.” Nor does it simply mean an education in the classic literature of the Western world. Classical education retrieves the seven liberal arts reformed by our forefathers in the faith during the medieval era. Those Christian scholars created an educational system from the seven liberal arts whose purpose was to teach subsequent generations to see Christ as preeminent in all things (Col 1:18) and that all things hold together in Christ (Col 1:17). Its goal was to create, perpetuate, and expand Christian culture so that the gospel which saves sinners would also transform civilizations.</itunes:summary>
+      <content:encoded>There is no truly classical education that isn’t thoroughly Christian. “Classical” is not a synonym for “rigorous.” Nor does it simply mean an education in the classic literature of the Western world. Classical education retrieves the seven liberal arts reformed by our forefathers in the faith during the medieval era. Those Christian scholars created an educational system from the seven liberal arts whose purpose was to teach subsequent generations to see Christ as preeminent in all things (Col 1:18) and that all things hold together in Christ (Col 1:17). Its goal was to create, perpetuate, and expand Christian culture so that the gospel which saves sinners would also transform civilizations.</content:encoded>
+      <pubDate>Thu, 17 Sep 2026 18:45:00 +0000</pubDate>
+      <link>https://valormn.org/podcast</link>
+      <itunes:image href="https://valormn.org/podcast/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/valor-mn/episodes/2026-09-17.m4a" length="10995066" type="audio/x-m4a" />
+      <guid isPermaLink="false">valor-mn-2026-09-17</guid>
+      <itunes:duration>7:34</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Mission: Educate and Enculturate</title>
       <description>Since God made mankind to rule, God-honoring schooling prepares students to rule well. That’s why Valor strives to equip students to walk in a manner worthy of their calling (Eph 4:1). To be prepared to rule, students need to receive a body of knowledge and a way of life. That’s why our mission is to educate and enculturate students in Christ.</description>
