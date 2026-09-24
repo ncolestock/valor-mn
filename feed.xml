@@ -7,7 +7,7 @@
     <language>en-us</language>
     <copyright>&#xA9; Valor Classical Academy</copyright>
     <description>Each week this fall, Head of School Nathan Colestock reads a short article on who Valor is and where it is going — our mission, our doctrine, and the kind of graduates we mean to raise.</description>
-    <lastBuildDate>Thu, 17 Sep 2026 18:46:26 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 19:08:14 +0000</lastBuildDate>
     <generator>valor-mn/scripts/build_feed.py</generator>
     <docs>https://help.apple.com/itc/podcasts_connect/#/itcb54353390</docs>
     <itunes:author>Valor Classical Academy</itunes:author>
@@ -30,6 +30,20 @@
       <title>Valor MN</title>
       <link>https://valormn.org/podcast</link>
     </image>
+    <item>
+      <title>Mission: To glorify God in all of life</title>
+      <description>God made everything for his glory. Everything exists to show off what God is like, and as a reason for us to praise him. If everything exists for God’s glory, teaching any subject disconnected from God is treachery. God’s glory is not an “add on” to our mission statement, it’s the whole point. At Valor, we want our students to glorify God from the factory floor to the senate floor, from the board room to the living room.</description>
+      <itunes:summary>God made everything for his glory. Everything exists to show off what God is like, and as a reason for us to praise him. If everything exists for God’s glory, teaching any subject disconnected from God is treachery. God’s glory is not an “add on” to our mission statement, it’s the whole point. At Valor, we want our students to glorify God from the factory floor to the senate floor, from the board room to the living room.</itunes:summary>
+      <content:encoded>God made everything for his glory. Everything exists to show off what God is like, and as a reason for us to praise him. If everything exists for God’s glory, teaching any subject disconnected from God is treachery. God’s glory is not an “add on” to our mission statement, it’s the whole point. At Valor, we want our students to glorify God from the factory floor to the senate floor, from the board room to the living room.</content:encoded>
+      <pubDate>Thu, 24 Sep 2026 19:15:00 +0000</pubDate>
+      <link>https://valormn.org/podcast</link>
+      <itunes:image href="https://valormn.org/podcast/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/valor-mn/episodes/2026-09-24.m4a" length="7489827" type="audio/x-m4a" />
+      <guid isPermaLink="false">valor-mn-2026-09-24</guid>
+      <itunes:duration>5:09</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Mission: with the classical tradition</title>
       <description>There is no truly classical education that isn’t thoroughly Christian. “Classical” is not a synonym for “rigorous.” Nor does it simply mean an education in the classic literature of the Western world. Classical education retrieves the seven liberal arts reformed by our forefathers in the faith during the medieval era. Those Christian scholars created an educational system from the seven liberal arts whose purpose was to teach subsequent generations to see Christ as preeminent in all things (Col 1:18) and that all things hold together in Christ (Col 1:17). Its goal was to create, perpetuate, and expand Christian culture so that the gospel which saves sinners would also transform civilizations.</description>
