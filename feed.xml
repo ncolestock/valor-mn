@@ -7,7 +7,7 @@
     <language>en-us</language>
     <copyright>&#xA9; Valor Classical Academy</copyright>
     <description>Each week this fall, Head of School Nathan Colestock reads a short article on who Valor is and where it is going — our mission, our doctrine, and the kind of graduates we mean to raise.</description>
-    <lastBuildDate>Thu, 24 Sep 2026 19:08:14 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 19:27:16 +0000</lastBuildDate>
     <generator>valor-mn/scripts/build_feed.py</generator>
     <docs>https://help.apple.com/itc/podcasts_connect/#/itcb54353390</docs>
     <itunes:author>Valor Classical Academy</itunes:author>
@@ -30,6 +30,20 @@
       <title>Valor MN</title>
       <link>https://valormn.org/podcast</link>
     </image>
+    <item>
+      <title>Doctrinal Distinctive 1: God’s meticulous sovereignty</title>
+      <description>God’s meticulous sovereignty. God controls everything. There are no accidents. History, past and present, is the record of God’s intentional actions. His sovereignty over all things inspires us to worship, trust, and obey him. We want to trust God when suffering comes and glorify God by enjoying him and his gifts.</description>
+      <itunes:summary>God’s meticulous sovereignty. God controls everything. There are no accidents. History, past and present, is the record of God’s intentional actions. His sovereignty over all things inspires us to worship, trust, and obey him. We want to trust God when suffering comes and glorify God by enjoying him and his gifts.</itunes:summary>
+      <content:encoded>God’s meticulous sovereignty. God controls everything. There are no accidents. History, past and present, is the record of God’s intentional actions. His sovereignty over all things inspires us to worship, trust, and obey him. We want to trust God when suffering comes and glorify God by enjoying him and his gifts.</content:encoded>
+      <pubDate>Thu, 01 Oct 2026 19:15:00 +0000</pubDate>
+      <link>https://valormn.org/podcast</link>
+      <itunes:image href="https://valormn.org/podcast/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/valor-mn/episodes/2026-10-01.m4a" length="9470280" type="audio/x-m4a" />
+      <guid isPermaLink="false">valor-mn-2026-10-01</guid>
+      <itunes:duration>6:31</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Mission: To glorify God in all of life</title>
       <description>God made everything for his glory. Everything exists to show off what God is like, and as a reason for us to praise him. If everything exists for God’s glory, teaching any subject disconnected from God is treachery. God’s glory is not an “add on” to our mission statement, it’s the whole point. At Valor, we want our students to glorify God from the factory floor to the senate floor, from the board room to the living room.</description>
