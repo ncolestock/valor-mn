@@ -7,7 +7,7 @@
     <language>en-us</language>
     <copyright>&#xA9; Valor Classical Academy</copyright>
     <description>Each week this fall, Head of School Nathan Colestock reads a short article on who Valor is and where it is going — our mission, our doctrine, and the kind of graduates we mean to raise.</description>
-    <lastBuildDate>Fri, 02 Oct 2026 19:27:16 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 20:49:45 +0000</lastBuildDate>
     <generator>valor-mn/scripts/build_feed.py</generator>
     <docs>https://help.apple.com/itc/podcasts_connect/#/itcb54353390</docs>
     <itunes:author>Valor Classical Academy</itunes:author>
@@ -30,6 +30,20 @@
       <title>Valor MN</title>
       <link>https://valormn.org/podcast</link>
     </image>
+    <item>
+      <title>Doctrinal Distinctive 2: God’s good design for men, women, and children</title>
+      <description>We’re partnering with parents to help raise children with valor. Valor, like every virtue, is good because it reflects who God is. There is no such thing as human virtue that is not expressed in either masculine or feminine ways.</description>
+      <itunes:summary>We’re partnering with parents to help raise children with valor. Valor, like every virtue, is good because it reflects who God is. There is no such thing as human virtue that is not expressed in either masculine or feminine ways.</itunes:summary>
+      <content:encoded>We’re partnering with parents to help raise children with valor. Valor, like every virtue, is good because it reflects who God is. There is no such thing as human virtue that is not expressed in either masculine or feminine ways.</content:encoded>
+      <pubDate>Fri, 09 Oct 2026 20:50:00 +0000</pubDate>
+      <link>https://valormn.org/podcast</link>
+      <itunes:image href="https://valormn.org/podcast/cover.jpg" />
+      <enclosure url="https://ncolestock.github.io/valor-mn/episodes/2026-10-09.m4a" length="14609702" type="audio/x-m4a" />
+      <guid isPermaLink="false">valor-mn-2026-10-09</guid>
+      <itunes:duration>10:03</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <itunes:episodeType>full</itunes:episodeType>
+    </item>
     <item>
       <title>Doctrinal Distinctive 1: God’s meticulous sovereignty</title>
       <description>God’s meticulous sovereignty. God controls everything. There are no accidents. History, past and present, is the record of God’s intentional actions. His sovereignty over all things inspires us to worship, trust, and obey him. We want to trust God when suffering comes and glorify God by enjoying him and his gifts.</description>
